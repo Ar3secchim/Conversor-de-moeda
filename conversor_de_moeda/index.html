@@ -4,9 +4,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Converso de Moeda</title>
+  <link rel="stylesheet" href="/conversor_de_moeda/style.css">
+  <title>Conversor de Moeda</title>
 </head>
 <body>
+  <div class="container_title">
+    <h1>Conversor de Moeda</h1>
+    <p>Converta o Real</p>
+    <img class="img_alura"src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+  </div>
+
+  <label for="conversor"> 
+    Insira o valor 
+  </label>
+  <br>
+  <input type="number" size="2" id="value"/>
+  <br>
+
+  <div class="container_button">
+    <button type="submit" onclick="Converter()">DOLÁR</button>
+    <button type="submit" onclick="ConverterEuro()">EURO</button>
+    <button type="submit" onclick="ConverterBitcoin()">BITCOIN</button>
+  </div>
+
+  <h2 id="valueConvert"></h2>
   
+  <img class="img_Background" src="/conversor_de_moeda/Assests/undraw_transfer_money_rywa (1).svg">
+
+  <img class="img_cash" src="/conversor_de_moeda/Assests/cash_front.png">
+
+  <img class="img_coin" src="/conversor_de_moeda/Assests/coin_front.png">
+
+  <img class="img_wallet" src="/conversor_de_moeda/Assests/wallet_front.png">
+
+  <img class="img_money" src="/conversor_de_moeda/Assests/money.png">
+
 </body>
+<script src="/conversor_de_moeda/script.js"></script>
 </html>
