@@ -5,12 +5,15 @@
 }
 
 body{
+  padding-top: 5rem;
   font-family: "Roboto Mono", monospace;
   background-color: #1c182e;
   display:flex;
   align-items: center;
   flex-direction: column;
 }
+
+
 h1{
   font-size:60px;
 }
@@ -33,9 +36,7 @@ h1{
 
   color: rgb(212, 212, 212);
 }
-h1{
-  font-size:2rem;
-}
+
 
 .img_alura{
   width: 30%;
@@ -100,12 +101,42 @@ button{
 
 
 /* media query */
-@media (max-width:650px){
+@media (max-width:1024px){
   .container_title h1{
     text-align: center;
     font-size: 2rem;
   }
-  .container_title{
+  .img_alura{
     display: none;
+  }
+
+  .img_Background{
+    width:50%;
+    left: 1rem;
+    top: 18rem;
+  }
+
+  .img_wallet{
+    position: relative;
+    left: 5rem;
+    top: -3rem;
+  }
+
+  .img_coin{
+    position: relative;
+    left: 8rem;
+    top: -5rem;
+  }
+
+  .img_cash{
+    position: relative;
+    left: 11rem;
+    top: -8rem;
+  }
+
+  .img_money{
+    position: relative;
+    left: 12rem;
+    top: -20em;
   }
 }
